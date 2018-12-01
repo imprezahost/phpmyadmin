@@ -1,0 +1,59 @@
+/* gpgstyle.css */
+/* central style sheet for the WEB ENCRYPTION EXTENSION */
+
+body       {background:lightgray;}
+div.encryption {text-align:center; align:center; background:lightgray; width:90%; height:90%; padding:20;}
+div.decryption {text-align:center; align:center; background:lightgray; width:90%; height:90%; padding:20;}
+div.signing    {text-align:center; align:center; background:lightgray; width:90%; height:90%; padding:20;}
+div.verify     {text-align:center; align:center; background:lightgray; width:90%; height:90%; padding:20;}
+div.keys       {text-align:center; align:center; background:lightgray; width:90%; height:90%; padding:20;}
+
+div.encryption h3 { font-family:arial; font-style:italic; font-weight:normal; font-size:22pt; 
+                color:darkblue; }
+div.decryption h3 { font-family:arial; font-style:italic; font-weight:normal; font-size:22pt; 
+                color:darkblue; }
+div.signing    h3 { font-family:arial; font-style:italic; font-weight:normal; font-size:22pt; 
+                color:darkblue; }
+div.signing    h3.input { font-family:arial; font-style:italic; font-weight:normal; font-size:22pt; 
+                color:darkblue; }
+div.verify     h3 { font-family:arial; font-style:italic; font-weight:normal; font-size:22pt; 
+                color:darkblue; }
+
+table.keylist   {width:90%; margin-left:5%; marging-right:5%}
+table.keyselect {width:90%; margin-left:5%; marging-right:5%}
+table.genkey    {width:70%; margin-left:15%; marging-right:15%}
+
+a {text-decoration:none; color:darkred;}
+
+div.encryption a {color:darkblue;}
+div.encryption a:hover {color:darkred;}
+div.encryption td.keyid1 { background-color:lightblue;}
+div.encryption td.keyid2 { background-color:#eeeeee;}
+div.encryption td.input  { background-color:#bbbbbb;}
+div.encryption td.text   { background-color:#bbbbbb; text-align:center;}
+
+div.decryption a {color:darkblue;}
+div.decryption td.keyid1 { background-color:lightblue;}
+div.decryption td.keyid2 { background-color:#eeeeee;}
+div.decryption td.input  { background-color:#bbbbbb;}
+div.decryption td.text   { background-color:#bbbbbb; text-align:center;}
+
+div.signing    a {color:darkblue;}
+div.signing    td.keyid1 { background-color:lightblue;}
+div.signing    td.keyid2 { background-color:#eeeeee;}
+div.signing    td.input  { background-color:#bbbbbb;}
+div.signing    td.text   { background-color:#bbbbbb; text-align:center;}
+
+
+div.keys h2 { font-family:arial; font-style:italic; font-size:24pt; 
+                color:darkblue }
+div.keys h3 { font-family:arial; font-style:italic; font-size:22pt; 
+                color:darkblue; }
+div.keys td.keyid1 { background-color:lightblue;}
+div.keys td.keyid2 { background-color:#f8f8f8}
+div.keys td.label1 { background-color:gold; padding:5px;}
+div.keys td.label2 { background-color:#bbbbbb; padding:5px;}
+div.keys input {color:darkblue;}
+div.keys input.button {background:yellow}
+
+h3.error      { color:red; background-color:#eeeeee; }
